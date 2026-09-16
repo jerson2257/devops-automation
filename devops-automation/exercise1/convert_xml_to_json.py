@@ -3,7 +3,7 @@ import json
 
 # Read XML file
 with open('network_config.xml', 'r') as file:
-xml_content = file.read()
+    xml_content = file.read()
 
 # Parse XML to dictionary
 data = xmltodict.parse(xml_content)
